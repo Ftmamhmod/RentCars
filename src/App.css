@@ -39,19 +39,19 @@
 
 @keyframes moveDiagonal {
   0% {
-    transform: translate(40%, -40%) scale(0.2); /* Start even closer to top right */
+    transform: translate(40%, -40%) scale(0.2);
   }
   100% {
-    transform: translate(0, 0) scale(1); /* End at bottom left */
+    transform: translate(0, 0) scale(1);
   }
 }
 
 @keyframes moveDiagonal2 {
   0% {
-    transform: translate(40%, -40%) scale(0.2); /* Start even closer to top right */
+    transform: translate(40%, -40%) scale(0.2);
   }
   100% {
-    transform: translate(0, 0) scale(1); /* End at bottom left */
+    transform: translate(0, 0) scale(1);
   }
 }
 
@@ -63,11 +63,4 @@
   .maxMargin {
     margin-left: 0px;
   }
-}
-
-.sizePic {
-  position: absolute;
-  top: 27px;
-  left: 20px;
-  width: 100%;
 }
