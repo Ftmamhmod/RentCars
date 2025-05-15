@@ -12,7 +12,7 @@ export default function Testimonials() {
         </div>
 
         <div className="row mt-5 pe-5 ps-5">
-          <div className="col-12 col-md-6 mb-4">
+          <div className="col-12 col-lg-6 mb-4">
             <div className="card flex-row shadow-sm h-100 ms-5 me-5">
               <img src={img1} className="card-img-left" alt="Charlie Johnson" />
               <div className="card-body">
@@ -38,7 +38,7 @@ export default function Testimonials() {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 mb-4">
+          <div className="col-12 col-lg-6 mb-4">
             <div className="card flex-row shadow-sm h-100 ms-5 me-5">
               <img src={img2} className="card-img-left " alt="Jane Doe" />
               <div className="card-body">
