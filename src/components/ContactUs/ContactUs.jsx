@@ -6,9 +6,9 @@ import "../../App.css";
 export default function ContactUs() {
   return (
     <>
-      <div className="container my-5">
-        <div className="row d-flex justify-content-between">
-          <div className="col-12 col-md-5">
+      <div className="container pt-5">
+        <div className="row justify-content-between ">
+          <div className="col-12 col-md-6 pe-5">
             <div>
               <p className="fw-bold  fs-2">
                 Download Rentcars App for{" "}
@@ -65,9 +65,9 @@ export default function ContactUs() {
             </div>
           </div>
 
-          <div className="col-12 col-md-7 d-none d-md-block position-relative">
-            <div className="d-flex  justify-content-center align-items-end sizePic">
-              <img src={iPhone14} className="img-fluid w-50" alt="" />
+          <div className="col-12 col-md-6 d-none d-md-block">
+            <div className="ps-5">
+              <img src={iPhone14} className="img-fluid " />
             </div>
           </div>
         </div>

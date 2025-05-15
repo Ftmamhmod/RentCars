@@ -4,7 +4,7 @@ import arrow from "../../assets/imges/card/arrow-right.png";
 export default function Details({ carId }) {
   let navigate = useNavigate();
   let goToDetailsOfCar = () => {
-    navigate(`/carDetails/${carId}`);
+    navigate(`/carDetails/${carId}`, { state: { carId } });
   };
   return (
     <>

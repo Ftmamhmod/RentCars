@@ -8,22 +8,20 @@ export default function CarDetails() {
   const [popularCar, setPopularCar] = useState(null);
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
-  console.log(id);
-  let getPopularCars = async () => {
-    try {
-      let response = await axios.get(`https://myfakeapi.com/api/cars/${id}`);
-
-      setPopularCar(response.data.car || response.data);
-    } catch (error) {
-      console.error("Error fetching car details:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
   useEffect(() => {
+    const getPopularCars = async () => {
+      try {
+        let response = await axios.get(`https://myfakeapi.com/api/cars/${id}`);
+        setPopularCar(response);
+      } catch (error) {
+        console.error("Error fetching car details:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     getPopularCars();
   }, [id]);
-
   let navigate = useNavigate();
   let goToHomePage = () => {
     navigate("/");
