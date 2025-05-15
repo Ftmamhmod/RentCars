@@ -15,9 +15,7 @@ export default function CarsList() {
 
   const getCars = async () => {
     try {
-      const response = await axios.get(
-        "https://myfakeapi.com/api/cars?limit=4"
-      );
+      const response = await axios.get("https://myfakeapi.com/api/cars");
       setCars(response.data.cars);
     } catch (error) {
       console.error(error);
