@@ -1,6 +1,6 @@
 import air from "../../../assets/imges/card/d8wxke_2_.png";
 import car3 from "../../../assets/imges/card/car3.png";
-import frame from "../../../assets/imges/card/frame.png";
+import frame from "../../../assets/imges/card/Frame.png";
 import star from "../../../assets/imges/card/star.png";
 import passanger from "../../../assets/imges/card/user.png";
 import styles from "../Cars.module.css";
