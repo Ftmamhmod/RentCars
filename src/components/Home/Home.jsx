@@ -1,6 +1,6 @@
 import { NavBar } from "./../NavBar/NavBar";
 import homeImg from "../../assets/imges/landing-page/car 2 1.png";
-import frame from "../../assets/imges/landing-page/frame.png";
+// import frame from "../../assets/imges/landing-page/frame.png";
 import android from "../../assets/imges/landing-page/andriod.png";
 import ios from "../../assets/imges/landing-page/ios.png";
 import "../../App.css";
@@ -34,9 +34,9 @@ const Home = () => {
                   alt="Car "
                 />
               </div>
-              <div className={`${styles.positionImg}`}>
+              {/* <div className={`${styles.positionImg}`}>
                 <img src={frame} className="img-fluid" alt="frame" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
