@@ -1,6 +1,6 @@
 import { NavBar } from "./../NavBar/NavBar";
 import homeImg from "../../assets/imges/landing-page/car 2 1.png";
-import frame from "../../assets/imges/landing-page/frame.png";
+import frame from "../../assets/imges/landing-page/frame";
 import android from "../../assets/imges/landing-page/andriod.png";
 import ios from "../../assets/imges/landing-page/ios.png";
 import "../../App.css";
